@@ -1,0 +1,88 @@
+/*
+	BODY STYLES
+*/
+	html, body 				{ 	margin: 0; padding: 0; text-align: left; width: 100%; background-color:#F1F1EB;}
+	body					{	color:#666666;  font-family:"Dosis"; font-size: 80%; text-align: left;}
+	h1, h2, h3, h5, h5, h6 	{	font-weight:bold; font-family:"Dosis";}
+	a:link, a:visited		{	font-weight:bold; font-size: 115%; color:#94948B; text-decoration: none; }
+	a:hover					{	color:#000;}
+	a:active				{	color: #000; text-decoration: none; }
+
+
+
+
+#cap						{	display:block; width:100%; height:160px; }
+
+#logo 						{	float:left; display:block; width:200px; height:50px; margin:64px 0 0 70px;  }
+
+#menus 						{	font-weight:bold; color:#000000; line-height:15px; float:left; display:block; width:200px; height:50px; margin:58px 0 0 0;  }
+
+#menus li a 				{	display:block; font-weight:bold; color:#94948B; line-height:15px;}
+#menus li a:hover			{	color:#000000; }
+
+#credits 					{	float:right; display:block; width:400px; height:50px; margin:58px 0 0 0; font-size: 105%; line-height:14px;}
+
+
+
+#franja						{	width:100%; height:400px; display:block; background:url(../images/fons_franja.png) repeat-x; }
+
+#contact					{	float:left; width:960px; height:340px; display:block;  background-image:url(../images/contact_fons.png);}
+
+
+
+#text2						{	 width:270px; height:280px; display:block;  margin:32px 0 0 423px; }
+
+
+
+/*
+font-family:"Myriad Pro";
+
+src: http://grafic.info/mbc/fonts/Myriadpro-Regular.otf) format(‘opentype’);
+
+}
+*/
+
+
+
+/* Easy Slider */
+
+		#slider ul, #slider li, #slider2 ul, #slider2 li {
+		margin:0;
+		padding:0;
+		list-style:none;
+		}
+		
+	#slider2{margin-top:1em;}
+	#slider li, #slider2 li{ 
+		/* 
+			define width and height of list item (slide)
+			entire slider area will adjust according to the parameters provided here
+		*/ 
+		width:100%;
+		height:340px;
+		overflow:hidden; 
+		}	
+	#prevBtn, #nextBtn,
+	#slider1next, #slider1prev{ 
+		display:block;
+		width:30px;
+		height:77px;
+		position:absolute;
+		left:-30px;
+		top:71px;
+		z-index:1000;
+		}	
+	#nextBtn, #slider1next{ 
+		left:696px;
+		}														
+	#prevBtn a, #nextBtn a,
+	#slider1next a, #slider1prev a{  
+		display:block;
+		position:relative;
+		width:30px;
+		height:77px;
+		background:url(../images/btn_prev.gif) no-repeat 0 0;	
+		}	
+	#nextBtn a, #slider1next a{ 
+		background:url(../images/btn_next.gif) no-repeat 0 0;	
+		}	
