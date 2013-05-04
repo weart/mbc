@@ -1,0 +1,45 @@
+body {
+    background-color:#F6F4F0; 
+    margin: 0px;
+    font: 10px ubuntu,sans-serif;
+}
+.centerPage {
+    min-width: 1024px;
+    width: 1024px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    position: relative;
+    height: 154px;
+    /*padding: 48px 64px 44px;*/  
+}
+header div {
+    position:absolute;
+    top: 48px;
+}
+#logo_home {
+/*    min-height: 62px;
+    width: 448px;*/
+    left:64px;
+}
+
+#menu_superior{
+/*    min-height: 62px;
+    width: 256px;*/
+    left:512px; /*margin-left: 512px;*/
+    color:grey;
+}
+#logos{
+    left: 888px; /*margin-left: 64px;*/	
+}
+#imatges{
+    height: 340px;
+    padding: 154px 0px 162px;
+}
+
+footer {
+    height: 162px;
+    padding: 32px 64px; 
+}
