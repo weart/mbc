@@ -4,6 +4,9 @@ function init_dw_Scroll() {
 	// args: id, axis ('v' or 'h'), eType (event type for arrows), 
 	// bScrollbar (include track and dragBar? true or false)
 	dw_scrollObjInstance.buildScrollControls('scrollbar', 'h', 'mouseover', true);
+	
+	//Lenin: Windows resize
+	dw_Event.add( window, 'resize', function(){ console.log('r');window.wndo.updateDims(); } );
 }
 
 // if code supported, link in the style sheet (optional) and call the init function onload
