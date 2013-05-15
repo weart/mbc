@@ -16,6 +16,6 @@ window.translate = function(language){
 	window.log(language);
 	//Si existeix, recorre l'objecte d'idioma i anar substituint els texts
 	_.each(window.languages[language], function(element, index) {
-		$(index).text(element);
+		$(index).html(element);
 	});
 }
