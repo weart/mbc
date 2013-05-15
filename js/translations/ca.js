@@ -70,7 +70,7 @@ window.languages.ca = {
              títol oficial. Ha donat classes al màster d\u00B4edició de la UA de<br>Barcelona, i té un nivell d\u00B4anglès de proficiency.<br>',
          
         //FOOTER
-        'footer': '<b>DISSENY EDITORIAL </b>(COL·LECCIONS/COBERTES/INTERIORS/MERCHANDISING/CONSULTING GRAPHIC/RETOC DIGITAL)'
+        '#sub_text': '<b>DISSENY EDITORIAL </b>(COL·LECCIONS/COBERTES/INTERIORS/MERCHANDISING/CONSULTING GRAPHIC/RETOC DIGITAL)'
     
     
 };

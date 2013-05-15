@@ -71,6 +71,6 @@ window.languages.en = {
             official title. He has given master classes at the UA editing of <br> Barcelona, and has a level of English proficiency.<br>',
     
         //FOOTER
-        'footer': '<b>EDITORIAL DESIGN </b> (COLLECTIONS / COVERED / INSIDE / MERCHANDISING / CONSULTING GRAPHIC / DIGITAL RETOUCH )'
+        '#sub_text': '<b>EDITORIAL DESIGN </b> (COLLECTIONS / COVERED / INSIDE / MERCHANDISING / CONSULTING GRAPHIC / DIGITAL RETOUCH )'
 
 };
