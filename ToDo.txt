@@ -6,14 +6,15 @@
 ->Degradat
 ->P`àgina actual amb color vermell al menu superior
 ->But´ó d'informaci´ó
-->Ordre de les imatges invers (la 1 a d'anar al final)
+->Ordre de les imatges invers (la 1 a d'anar al final) - No prioritari
 ->Espai petit no te peu
 
 /Home
 ->Un nou carrousel, sense peu de foto, per`ò amb linformacio de lactual merchandising
 
 /Info
-->Fons gris fosc
+->Fons per les bandes gris fosc
+->Falten coses x fer
 
 Traduccions totes a l'html
 ->Posar els texts en un div per cada idioma i al clickar sobre lidioma amagar els que no son de lidioma...
@@ -31,9 +32,9 @@ Passaria a ser:
     <dl>
 		<dt data-href="index">ADULT</dt>
 		<dt data-href="index">
-            <div tr="tr_ca">JUVENIL</div>
-            <div tr="tr_es">JUVENIL</div>
-            <div tr="tr_en">YOUTH</div>
+            <div class="tr_ca">JUVENIL</div>
+            <div class="tr_es">JUVENIL</div>
+            <div class="tr_en">YOUTH</div>
         </dt>
 		<dt data-href="infantil">INFANTIL</dt>
 		<dt data-href="merchandising">MERCHANDISING</dt>
