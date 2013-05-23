@@ -71,5 +71,5 @@ window.languages.es = {
             título oficial. Ha dado clases en el master de edición de la UA de<br> Barcelona, y tiene un nivel de inglés de proficiency.<br>',
 
          //FOOTER
-        '#sub_text': '<b>DISEÑO EDITORIAL</b>(COLECCIONES/CUBIERTAS/INTERIORES/MERCHANDISING/CONSULTING GRAPHIC/RETOQUE DIGITAL)'
+//        '#sub_text': '<b>DISEÑO EDITORIAL</b>(COLECCIONES/CUBIERTAS/INTERIORES/MERCHANDISING/CONSULTING GRAPHIC/RETOQUE DIGITAL)'
 };

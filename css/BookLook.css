@@ -35,6 +35,10 @@ header div {
 #logos{
     left: 888px; /*margin-left: 64px;*/	
 }
+#logo_info{
+    left: 944px; /*margin-left: 64px;*/  
+    top: 76px;
+}
 #imatges{
     position: relative;
     height: 340px;

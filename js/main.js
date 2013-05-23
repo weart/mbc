@@ -18,7 +18,7 @@ function init_dw_Scroll() {
 	dw_scrollObjInstance.buildScrollControls('scrollbar', 'h', 'mouseover', true);
 	
 	//Lenin: Windows resize
-	dw_Event.add( window, 'resize', function(){ console.log('r');window.dw_scrollObjInstance.updateDims(); } );
+	dw_Event.add( window, 'resize', function(){ window.dw_scrollObjInstance.updateDims(); } );
 }
 
 // if code supported, link in the style sheet (optional) and call the init function onload

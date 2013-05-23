@@ -1,0 +1,42 @@
+@ToDo:
+
+/Books
+->Merchandising és un book! Crear un pàgina nova que es digui info.html
+->Scroll de 1024 + noves imatges
+->Degradat
+->P`àgina actual amb color vermell al menu superior
+->But´ó d'informaci´ó
+->Ordre de les imatges invers (la 1 a d'anar al final) - No prioritari
+->Espai petit no te peu
+
+/Home
+->Un nou carrousel, sense peu de foto, per`ò amb linformacio de lactual merchandising
+
+/Info
+->Fons per les bandes gris fosc
+->Falten coses x fer
+
+Traduccions totes a l'html
+->Posar els texts en un div per cada idioma i al clickar sobre lidioma amagar els que no son de lidioma...
+Ex:
+<div id="menu_superior">  
+	<dl>
+		<dt data-href="index">ADULT</dt>
+		<dt data-href="juvenil">JUVENIL</dt>
+		<dt data-href="infantil">INFANTIL</dt>
+		<dt data-href="merchandising">MERCHANDISING</dt>
+	</dl>
+</div>
+Passaria a ser:
+<div id="menu_superior">  
+    <dl>
+		<dt data-href="index">ADULT</dt>
+		<dt data-href="index">
+            <div class="tr_ca">JUVENIL</div>
+            <div class="tr_es">JUVENIL</div>
+            <div class="tr_en">YOUTH</div>
+        </dt>
+		<dt data-href="infantil">INFANTIL</dt>
+		<dt data-href="merchandising">MERCHANDISING</dt>
+	</dl>
+</div>
