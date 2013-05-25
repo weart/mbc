@@ -1,16 +1,13 @@
 @ToDo:
 
 /Books
-->Merchandising és un book! Crear un pàgina nova que es digui info.html
-->Scroll de 1024 + noves imatges
 ->Degradat
-->P`àgina actual amb color vermell al menu superior
-->But´ó d'informaci´ó
+->Pàgina actual amb color vermell al menu superior
 ->Ordre de les imatges invers (la 1 a d'anar al final) - No prioritari
 ->Espai petit no te peu
 
 /Home
-->Un nou carrousel, sense peu de foto, per`ò amb linformacio de lactual merchandising
+->Llibres reals
 
 /Info
 ->Fons per les bandes gris fosc
@@ -40,3 +37,12 @@ Passaria a ser:
 		<dt data-href="merchandising">MERCHANDISING</dt>
 	</dl>
 </div>
+
+
+
+Fet:
+->Missatge javascript dw_scroll_c comentat
+->Merchandising és un book! Crear un pàgina nova que es digui info.html
+->Scroll de 1024 + noves imatges
+->Home: Un nou carrousel, sense peu de foto, per`ò amb linformacio de lactual merchandising
+->Butó d'informació
