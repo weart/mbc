@@ -5,6 +5,7 @@
 ->Pàgina actual amb color vermell al menu superior
 ->Ordre de les imatges invers (la 1 a d'anar al final) - No prioritari
 ->Espai petit no te peu
+->Copiar els tags del head per els iconos de index.html a la resta de pagines
 
 /Home
 ->Llibres reals
