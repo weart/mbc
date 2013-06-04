@@ -4,7 +4,11 @@
 /Books
 ->Degradat
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+->Pàgina actual amb color vermell al menu superior
+>>>>>>> c9981092be6b199d12303ee012e2572387b6f309
 =======
 ->Pàgina actual amb color vermell al menu superior
 >>>>>>> c9981092be6b199d12303ee012e2572387b6f309
@@ -48,7 +52,10 @@ Passaria a ser:
 
 Fet:
 <<<<<<< HEAD
+<<<<<<< HEAD
 ->A l'apartat d'info he fet el degradat +o-; he fet que el boto del mail et vagi directament a redactar un mail per l'usuari
+=======
+>>>>>>> c9981092be6b199d12303ee012e2572387b6f309
 =======
 >>>>>>> c9981092be6b199d12303ee012e2572387b6f309
 ->Missatge javascript dw_scroll_c comentat
@@ -56,8 +63,12 @@ Fet:
 ->Scroll de 1024 + noves imatges
 ->Home: Un nou carrousel, sense peu de foto, per`ò amb linformacio de lactual merchandising
 <<<<<<< HEAD
+<<<<<<< HEAD
 ->Butó d'informació
 ->He posat en vermell tts el marcadors d'adalt i he afegit els que faltaven
+=======
+->Butó d'informació
+>>>>>>> c9981092be6b199d12303ee012e2572387b6f309
 =======
 ->Butó d'informació
 >>>>>>> c9981092be6b199d12303ee012e2572387b6f309
