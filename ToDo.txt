@@ -1,16 +1,15 @@
 @ToDo:
-
+/Problema
+->No sé perque xo en el info.html no puc marcar el marcadors (adult, infantil, etc...)
 /Books
-->Merchandising és un book! Crear un pàgina nova que es digui info.html
-->Scroll de 1024 + noves imatges
 ->Degradat
-->P`àgina actual amb color vermell al menu superior
-->But´ó d'informaci´ó
+
 ->Ordre de les imatges invers (la 1 a d'anar al final) - No prioritari
 ->Espai petit no te peu
+->Copiar els tags del head per els iconos de index.html a la resta de pagines
 
 /Home
-->Un nou carrousel, sense peu de foto, per`ò amb linformacio de lactual merchandising
+->Llibres reals
 
 /Info
 ->Fons per les bandes gris fosc
@@ -40,3 +39,14 @@ Passaria a ser:
 		<dt data-href="merchandising">MERCHANDISING</dt>
 	</dl>
 </div>
+
+
+
+Fet:
+->A l'apartat d'info he fet el degradat +o-; he fet que el boto del mail et vagi directament a redactar un mail per l'usuari
+->Missatge javascript dw_scroll_c comentat
+->Merchandising és un book! Crear un pàgina nova que es digui info.html
+->Scroll de 1024 + noves imatges
+->Home: Un nou carrousel, sense peu de foto, per`ò amb linformacio de lactual merchandising
+->Butó d'informació
+->He posat en vermell tts el marcadors d'adalt i he afegit els que faltaven

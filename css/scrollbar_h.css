@@ -10,37 +10,45 @@ div#scrollbar {
     position:relative;
     /* include following if you don't want scrollbar hidden when insufficient content for scrolling */
     /* visibility:visible !important; */ 
-    width:600px; height:5px;
+    width:896px; height:5px;
 	margin:0 auto;
     font-size:1px; /* or dragBar will overflow track in ie */
   }
 div#scrollbar .left { 
     position:absolute; 
     left:0; top:0;
-    width:25px; height:25px; /* specify width and height of your image */
-    background-image:url('../images/bt_left.png');
+    width:26px; height:26px; /* specify width and height of your image */
+    background-image:url('../images/BOTO_scrolla1.png');
     background-repeat: no-repeat;
     }
+div#scrollbar .left:active,
+div#scrollbar .left:hover {
+	background-image:url('../images/BOTO_scrolla3.png');
+}
 div#scrollbar .right { 
     position:absolute; 
     right:0; top:0;
-    width:25px; height:25px; /* specify width and height of your image */
-    background-image:url('../images/bt_right.png');
+    width:26px; height:26px; /* specify width and height of your image */
+    background-image:url('../images/BOTO_scrollb1.png');
     background-repeat: no-repeat;
     }
+div#scrollbar .right:active,
+div#scrollbar .right:hover {
+	background-image:url('../images/BOTO_scrollb3.png');
+}
 div#scrollbar .track { 
     position:absolute; /* track must be positioned */
     top:10px;
 	margin: 0 auto;
-    left:50px; /* equal to width of .left image + optional gap */
-    width:500px; /* width of scrollbar minus 2 X image width minus 2 X gap between */
-    height:5px; 
+    left:56px; /* equal to width of .left image + optional gap */
+    width:784px; /* width of scrollbar minus 2 X image width minus 2 X gap between */
+    height:8px;
     background-color:#fff;
   }
 div#scrollbar .dragBar {
     position:absolute; /* dragBar must be positioned */
     left:0; top:0; /* for small gap between track and dragBar */
-    height:5px;
+    height:8px;
     width:20px; /* code auto-sizes */
     /* width:20px !important;  use !important to prevent code from sizing dragBar according to amount of content */
     background-color:#94948B;
