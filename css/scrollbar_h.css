@@ -5,7 +5,7 @@ div#wn	{
     overflow:hidden; /* required! */
 	
 	margin:0 0 20px 0;
-	}
+}
 div#scrollbar { 
     position:relative;
     /* include following if you don't want scrollbar hidden when insufficient content for scrolling */
@@ -13,14 +13,15 @@ div#scrollbar {
     width:896px; height:5px;
 	margin:0 auto;
     font-size:1px; /* or dragBar will overflow track in ie */
-  }
+}
 div#scrollbar .left { 
     position:absolute; 
     left:0; top:0;
     width:26px; height:26px; /* specify width and height of your image */
     background-image:url('../images/BOTO_scrolla1.png');
     background-repeat: no-repeat;
-    }
+    cursor: pointer;
+}
 div#scrollbar .left:active,
 div#scrollbar .left:hover {
 	background-image:url('../images/BOTO_scrolla3.png');
@@ -31,7 +32,8 @@ div#scrollbar .right {
     width:26px; height:26px; /* specify width and height of your image */
     background-image:url('../images/BOTO_scrollb1.png');
     background-repeat: no-repeat;
-    }
+    cursor: pointer;
+}
 div#scrollbar .right:active,
 div#scrollbar .right:hover {
 	background-image:url('../images/BOTO_scrollb3.png');
@@ -44,7 +46,7 @@ div#scrollbar .track {
     width:784px; /* width of scrollbar minus 2 X image width minus 2 X gap between */
     height:8px;
     background-color:#fff;
-  }
+}
 div#scrollbar .dragBar {
     position:absolute; /* dragBar must be positioned */
     left:0; top:0; /* for small gap between track and dragBar */
@@ -52,11 +54,9 @@ div#scrollbar .dragBar {
     width:20px; /* code auto-sizes */
     /* width:20px !important;  use !important to prevent code from sizing dragBar according to amount of content */
     background-color:#94948B;
-  }  
+}  
 /* for clutzy draggers */
 div#scrollbar {
     -moz-user-select: none;
     -khtml-user-select: none;
-    }
-	
-	
+}

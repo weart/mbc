@@ -19,22 +19,23 @@
 // 		$(index).html(element);
 // 	});
 // }
-window.translate= function(language) {
+window.translate = function(language) {
 	//Check errors
-	if(typeof language == 'undefined') {
+	if (typeof language == 'undefined') {
 		err('You must specify a language');
 	}
-	var langs = ['ca','es','en'];
-	if(! (language in langs)) err('The language '+language+' is not translated');
-//	var found = false;
-// for(var i = 0, len = langs.length() && !found; i < len; i++) {
-// 	if(langs[i] == language) found = true;
-// }
-// if(!found) err('The language '+language+' is not translated');
-	
+	var langs = ['ca', 'es', 'en'];
+//	if(! (language in langs)) err('The language '+language+' is not translated'); //No funciona: comprova la key, no el value
+	var found = false;
+	for (var i = 0, len = langs.length; i < len && !found; i++) {
+		if (langs[i] == language) found = true;
+	}
+	if (!found) err('The language ' + language + ' is not translated');
+
 	//Do the tranlation
-	_.each($('.tr'), function (el) {
-		if(el.hasClass(language)) el.show();
-		else el.hide();
+	_.each($('.tr'), function(el) {
+		if ($(el).hasClass(language)) $(el).show();
+		else $(el).hide();
 	});
 }
+Backbone.on('translate',translate);

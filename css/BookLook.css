@@ -35,12 +35,24 @@ header div {
     font: 11px ubuntu,sans-serif;
     line-height:150%;
 }
+#menu_superior dt {
+    cursor: pointer;
+}
+#menu_superior .actual {
+    color: #f6290c;
+    font-weight: bold;
+}
 #logos{
     left: 888px; /*margin-left: 64px;*/	
 }
-#logo_info{
-    left: 944px; /*margin-left: 64px;*/  
-    top: 76px;
+#logos img {
+    cursor: pointer;
+}
+#logos .info {
+	position: relative;
+   /* left: 944px; margin-left: 64px; top: 76px;*/  
+    top: 3px;
+	left: 58px;
 }
 #imatges{
     position: relative;
@@ -94,6 +106,10 @@ header div {
     left:64px;
 }
 footer {
-    
-    padding: 32px 64px 32px; 
+    height: 162px;
+    padding: 32px 64px; 
+}
+
+.tr {
+	display: none;
 }

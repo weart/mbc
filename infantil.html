@@ -13,6 +13,12 @@
 			<script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
 		<![endif]-->
 
+        <!-- Icons -->
+    	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+		<link rel="apple-touch-icon-precomposed" sizes="114×114" href="/apple-touch-icon-114×114-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72×72" href="/apple-touch-icon-72×72-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" href="/touch-icon-iphone-precomposed.png">
+
 		<!-- Configurations & CSS -->
 		<title>Book&amp;Look: Infantil</title>
 		<meta name="description" content="">
@@ -26,24 +32,40 @@
 	<body>
 		<header class="centerPage">
 			<div id="logo_home">
-					<a href="index.html"><img src="images/BOTO_LOGO1.png"> </a>
+				<a href="index.html"><img src="images/BOTO_LOGO1.png"> </a>
 			</div>
-			<div id="menu_superior">  
+			<div id="menu_superior">
 				<dl>
-					<dt data-href="adult">ADULT</dt>
-					<dt data-href="juvenil">JUVENIL</dt>
-                                        <dt data-href="infantil" style="color:#f6290c"><b>INFANTIL</b></dt>
+					<dt data-href="index" class="actual">
+						<span class="tr ca">INICI</span>
+						<span class="tr es">INICIO</span>
+						<span class="tr en">HOME</span>
+					</dt>
+					<dt data-href="adult">
+						<span class="tr ca">ADULT</span>
+						<span class="tr es">ADULTO</span>
+						<span class="tr en">ADULT</span>
+					</dt>
+					<dt data-href="juvenil">
+						<span class="tr ca">JUVENIL</span>
+						<span class="tr es">JUVENIL</span>
+						<span class="tr en">YOUTH</span>
+					</dt>
+					<dt data-href="infantil">
+						<span class="tr ca">INFANTIL</span>
+						<span class="tr es">INFANTIL</span>
+						<span class="tr en">CHILDREN</span>
+					</dt>
 					<dt data-href="merchandising">MERCHANDISING</dt>
 				</dl>
 			</div>
 			<div id="logos">
-				<img src="images/BOTO_esp1.png" class="tr" lang="es" />
-				<img src="images/BOTO_eng1.png" class="tr" lang="en" />
-				<img src="images/BOTO_cat2.png" class="tr" lang="ca" />
+				<img src="images/BOTO_esp1.png" class="tr_ico" lang="es" />
+				<img src="images/BOTO_eng1.png" class="tr_ico" lang="en" />
+				<img src="images/BOTO_cat2.png" class="tr_ico" lang="ca" />
+				<br />
+				<img src="images/BOTO_info1.png" class="info" data-href="info">
 			</div>
-                            <div id="logo_info">
-                            <a href="info.html"><img src="images/BOTO_info1.png"></a>    
-                            </div>
 		</header>
 		<div id="wn"> <!-- scroll area div -->
 			<div id="lyr1"> <!-- layer in scroll area (content div) -->
