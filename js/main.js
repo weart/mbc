@@ -12,17 +12,22 @@ window.err = function(msg) {
 
 //Routing
 window.Routing = Backbone.Router.extend({
+	default_lang: 'ca',
 	routes: {
+		"": "init",
 		"lang/:lang": "initTranslate"
 	},
+	init: function() {
+		this.navigate("lang/" + this.default_lang, {trigger: true});
+	},
 	initTranslate: function(lang) {
-		window.lang = lang;
+		window.lang = this.default_lang;
 		Backbone.trigger('translate',lang);
 		//window.buttonsView.do_translate(lang);
 	},
 	goTo: function(page) {
 		log('goTo:'+page);
-        var lang = window.lang || 'ca';
+        var lang = window.lang || this.default_lang;
 		var url = page+'.html#lang/'+lang;
 		window.location.href = url;
 //		window.location.assign();
