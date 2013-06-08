@@ -3,12 +3,29 @@ window.log = function(msg) {
 	if( typeof console == 'object' && _.isFunction(console.log)) {
 		console.log(msg);
 	}
-}
+};
 window.err = function(msg) {
 	if( typeof console == 'object' && _.isFunction(console.error)) {
 		console.error(msg);
 	}
-}
+};
+//Param can be an array, object or string
+window.preloadImage = function(param) {
+	switch(typeof param) {
+		case 'string':
+			window._preloadImage(param);break;
+		case 'object':
+			_.each(param, window._preloadImage);break;
+		default:
+			log(this+': preloadImage error, typeof '+(typeof param)+' not allowed');
+	}
+};
+window._preloadImage = function(url) {
+	if(_.isString(url)) {
+		var img = new Image();
+		img.src = url;
+	} else log(this+': _preloadImage error, typeof '+(typeof url)+' is not a string');
+};
 
 //Routing
 window.Routing = Backbone.Router.extend({
@@ -37,12 +54,20 @@ window.Routing = Backbone.Router.extend({
 	}
 });
 
+//Prevent Lazy-Load images
+window.loadImages = function() {
+	var imgs = ['images/BOTO_scrolla3.png','images/BOTO_scrollb3.png'];
+	return preloadImage(imgs);
+}
+
 //MAIN
 $(document).ready(function() {
 	window.routing = new window.Routing();
 	//window.views = new window.Views();
 	window.buttonsView = new window.ButtonsView();
 	window.logosView = new window.LogosView();
+	
+	loadImages();
 	
 	Backbone.history.start(); //{pushState: true}
 });

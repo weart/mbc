@@ -13,6 +13,7 @@ div#scrollbar {
     width:896px; height:5px;
 	margin:0 auto;
     font-size:1px; /* or dragBar will overflow track in ie */
+    height: 27px;
 }
 div#scrollbar .left { 
     position:absolute; 

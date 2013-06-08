@@ -15,28 +15,7 @@
 
 Traduccions totes a l'html
 ->Posar els texts en un div per cada idioma i al clickar sobre lidioma amagar els que no son de lidioma...
-Ex:
-<div id="menu_superior">  
-	<dl>
-		<dt data-href="index">ADULT</dt>
-		<dt data-href="juvenil">JUVENIL</dt>
-		<dt data-href="infantil">INFANTIL</dt>
-		<dt data-href="merchandising">MERCHANDISING</dt>
-	</dl>
-</div>
-Passaria a ser:
-<div id="menu_superior">  
-    <dl>
-		<dt data-href="index">ADULT</dt>
-		<dt data-href="index">
-            <div class="tr_ca">JUVENIL</div>
-            <div class="tr_es">JUVENIL</div>
-            <div class="tr_en">YOUTH</div>
-        </dt>
-		<dt data-href="infantil">INFANTIL</dt>
-		<dt data-href="merchandising">MERCHANDISING</dt>
-	</dl>
-</div>
+
 
 
 

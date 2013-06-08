@@ -1,7 +1,10 @@
+/*@import url(http://fonts.googleapis.com/css?family=Ubuntu);*/
+
 body {
     background-color:#F6F4F0; 
     margin: 0px;
-    font: 10px ubuntu,sans-serif;
+    font-size: 10px;
+    font-family: 'Ubuntu', sans-serif;
     color:grey;
 }
 .centerPage {
@@ -72,14 +75,14 @@ header div {
 #marc_text_resum{
     position:absolute;
     padding: 43px 64px;
-    font: 11.5px ubuntu,sans-serif;
+    font-size: 11.5px;
     color:white;
     line-height:150%;
 }
 #marc_info{
     position:absolute;
     padding: 43px 38px;
-    font: 11.5px ubuntu,sans-serif;
+    font-size: 11.5px;
     color:white; 
     line-height:110%;
 }
@@ -101,7 +104,9 @@ header div {
 
 #sub_text{
     position: relative;
-    font: 10.7px ubuntu,sans-serif;
+    padding: 15px;/*43px*/
+    left: 64px;
+    font-size: 10.7px;
     color: #f6290c;
     left:64px;
 }
