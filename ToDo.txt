@@ -1,20 +1,27 @@
-@ToDo:
+@ToDo - Coses pendents:
+
+/General
+->Moltes traduccions
+
+/Home
+->Llibres correctes
 
 /Books
 ->Degradat
-
-->Ordre de les imatges invers (la 1 a d'anar al final) - No prioritari
-->Espai petit no te peu
-
-/Home
-->Llibres reals
+->Llibres correctes i amb l'ordre de les imatges invers (la 1 a d'anar al final)
+(Espai petit no te peu, espai gran entre coleccions)
 
 /Info
 ->Fons per les bandes gris fosc
-->Falten coses x fer
+->El boto de correu amb estat 2 i 3 te les franjes blanques
+->En la pàgina de Info-Contacte, hi ha un degradat en el fons de les dades, que no caldria.
+->Falten coses x fer, comprovar-ho amb els dissenys
 
-Traduccions totes a l'html
-->Posar els texts en un div per cada idioma i al clickar sobre lidioma amagar els que no son de lidioma...
+
+/Hem de decidir com resoldre-ho
+->Carrega de la pagina, segons l'Enric:
+M'agrada més que primer es carreguin les imatges i després el text.
+Jo crec que l'ordre, seria: 1 capçalera superior i barra inferior, 2 carrussel imatges, 3 peus de carrussel.
 
 
 
@@ -26,3 +33,6 @@ Fet:
 ->Home: Un nou carrousel, sense peu de foto, per`ò amb linformacio de lactual merchandising
 ->Butó d'informació
 ->Translator.js
+->Images favicon y apple-touch
+->3 estats sobre tots els botons
+->keywords y description

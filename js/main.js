@@ -29,7 +29,7 @@ window._preloadImage = function(url) {
 
 //Routing
 window.Routing = Backbone.Router.extend({
-	default_lang: 'ca',
+	default_lang: 'es',
 	routes: {
 		"": "init",
 		"lang/:lang": "initTranslate"
@@ -38,7 +38,7 @@ window.Routing = Backbone.Router.extend({
 		this.navigate("lang/" + this.default_lang, {trigger: true});
 	},
 	initTranslate: function(lang) {
-		window.lang = this.default_lang;
+		window.lang = lang || this.default_lang;
 		Backbone.trigger('translate',lang);
 		//window.buttonsView.do_translate(lang);
 	},
@@ -56,9 +56,22 @@ window.Routing = Backbone.Router.extend({
 
 //Prevent Lazy-Load images
 window.loadImages = function() {
+	//scroll
 	var imgs = ['images/BOTO_scrolla3.png','images/BOTO_scrollb3.png'];
+	//lang es
+	imgs = imgs.concat(['images/BOTO_esp1.png','images/BOTO_esp2.png','images/BOTO_esp3.png']);
+	//lang en
+	imgs = imgs.concat(['images/BOTO_eng1.png','images/BOTO_eng2.png','images/BOTO_eng3.png']);
+	//lang ca
+	imgs = imgs.concat(['images/BOTO_cat1.png','images/BOTO_cat2.png','images/BOTO_cat3.png']);
+	//info
+	imgs = imgs.concat(['images/BOTO_info1.png','images/BOTO_info2.png','images/BOTO_info3.png']);
+	//mail
+	imgs = imgs.concat(['images/BOTO_mail1.3.png','images/BOTO_mail2.png','images/BOTO_mail3.png']);
+	
 	return preloadImage(imgs);
 }
+
 
 //MAIN
 $(document).ready(function() {

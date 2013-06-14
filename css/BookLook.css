@@ -20,7 +20,7 @@ header {
     height: 154px;
     /*padding: 48px 64px 44px;*/  
 }
-header div {
+header>div {
     position:absolute;
     top: 48px;
 }
@@ -45,18 +45,73 @@ header div {
     color: #f6290c;
     font-weight: bold;
 }
-#logos{
+#logos {
     left: 888px; /*margin-left: 64px;*/	
 }
-#logos img {
+#logos div {
     cursor: pointer;
+    width: 26px;
+    height: 26px;
+    background-repeat: no-repeat;
+    display: inline-block;
 }
-#logos .info {
+#logos > #logo_es {
+	background-image: url('../images/BOTO_esp1.png');
+}
+#logos > #logo_es.active {
+	background-image: url('../images/BOTO_esp3.png');
+}
+/* hover es mentre el mouse esta a sobre, active es mentre sesta pulsant */
+#logos > #logo_es:hover {
+	background-image: url('../images/BOTO_esp2.png');
+}
+#logos > #logo_es:active {
+	background-image: url('../images/BOTO_esp3.png');
+}
+
+#logos > #logo_ca {
+	background-image: url('../images/BOTO_cat1.png');
+}
+#logos > #logo_ca.active {
+	background-image: url('../images/BOTO_cat3.png');
+}
+#logos > #logo_ca:hover {
+	background-image: url('../images/BOTO_cat2.png');
+}
+#logos > #logo_ca:active {
+	background-image: url('../images/BOTO_cat3.png');
+}
+
+#logos > #logo_en {
+	background-image: url('../images/BOTO_eng1.png');
+}
+#logos > #logo_en.active {
+	background-image: url('../images/BOTO_eng3.png');
+}
+#logos > #logo_en:hover {
+	background-image: url('../images/BOTO_eng2.png');
+}
+#logos > #logo_en:active {
+	background-image: url('../images/BOTO_eng3.png');
+}
+
+#logos > #logo_info {
 	position: relative;
    /* left: 944px; margin-left: 64px; top: 76px;*/  
     top: 3px;
 	left: 58px;
+	background-image: url('../images/BOTO_info1.png');
 }
+#logos > #logo_info.active {
+	background-image: url('../images/BOTO_info3.png');
+}
+#logos > #logo_info:hover {
+	background-image: url('../images/BOTO_info2.png');
+}
+#logos > #logo_info:active {
+	background-image: url('../images/BOTO_info3.png');
+}
+
 #imatges{
     position: relative;
     height: 340px;
@@ -100,6 +155,21 @@ header div {
     background: -ms-linear-gradient(left, rgba(76,84,59,1) 0%, rgba(61,69,44,1) 31%, rgba(28,35,11,1) 100%);
     background: linear-gradient(to right, rgba(76,84,59,1) 0%, rgba(61,69,44,1) 31%, rgba(28,35,11,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c543b', endColorstr='#1c230b', GradientType=1 );
+}
+
+#btn_mail {
+    cursor: pointer;
+    width: 26px;
+    height: 26px;
+    background-repeat: no-repeat;
+    display: inline-block;
+	background-image: url('../images/BOTO_mail1.3.png');
+}
+#btn_mail:hover {
+	background-image: url('../images/BOTO_mail2.png');
+}
+#btn_mail:active {
+	background-image: url('../images/BOTO_mail3.png');
 }
 
 #sub_text{

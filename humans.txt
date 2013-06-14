@@ -3,13 +3,11 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Enric -- Designer
+    Arnau-Lenin -- Developer
+    Dan-Marc -- Developer
 
-# THANKS
-
-    <name>
-
-# TECHNOLOGY COLOPHON
+# TECHNOLOGY USED
 
     HTML5, CSS3
-    jQuery, Modernizr
+    jQuery, Backbone, UnderScore

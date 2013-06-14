@@ -1,44 +1,32 @@
 window.ButtonsView = Backbone.View.extend({
 	el: "#logos",
 	events: {
-		"click .tr_ico": "btn_translate",
-		"translate" : 'do_translate'
+		"click .tr_ico": "btn_translate"
+//		"translate" : 'chg_btn_imgs'
+	},
+	initialize: function(options) {
+		Backbone.on('translate',this.chg_btn_imgs);
 	},
 	btn_translate: function(e) {
 		window.routing.navigate("lang/" + $(e.currentTarget).attr('lang'), {trigger: true});
 //		this.do_translate($(e.currentTarget).attr('lang'));
 	},
-	do_translate: function(lang) {
-		log('oi: '+lang);
-		log(this['tr_'+lang]);
-		//translate(lang);
-		this['tr_'+lang]();
-	},
-	tr_ca: function() {
-		$(".tr_ico[lang='es']").attr('src','images/BOTO_esp1.png');
-		$(".tr_ico[lang='en']").attr('src','images/BOTO_eng1.png');
-		$(".tr_ico[lang='ca']").attr('src','images/BOTO_cat2.png');
-	},
-	tr_es: function() {
-		$(".tr_ico[lang='ca']").attr('src','images/BOTO_cat1.png');
-		$(".tr_ico[lang='en']").attr('src','images/BOTO_eng1.png');
-		$(".tr_ico[lang='es']").attr('src','images/BOTO_esp2.png');
-	},
-	tr_en: function() {
-		$(".tr_ico[lang='es']").attr('src','images/BOTO_esp1.png');
-		$(".tr_ico[lang='ca']").attr('src','images/BOTO_cat1.png');
-		$(".tr_ico[lang='en']").attr('src','images/BOTO_eng2.png');
+	chg_btn_imgs: function(lang) {
+		$(".tr_ico").not("[lang='"+lang+"']").removeClass('active');
+		$(".tr_ico[lang='"+lang+"']").addClass('active');
 	}
 });
 
 window.LogosView = Backbone.View.extend({
 	el: 'header',
 	events: {
-		"click #menu_superior dl dt": "clickBtn",
-		"click #logos .info": "clickBtn",
+		"click [data-href]": "clickBtn",
 	},
 	clickBtn: function(e) {
-		window.routing.goTo($(e.currentTarget).data('href'));
+		var url = $(e.currentTarget).data('href');
+		if(_.isString(url) && url.length > 0) {
+			window.routing.goTo(url);
+		} else log('Wrong data-href: '+url);
 	}
 });
 
