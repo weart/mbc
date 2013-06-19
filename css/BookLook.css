@@ -13,7 +13,6 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
 }
 header {
     position: relative;
@@ -44,6 +43,9 @@ header>div {
 #menu_superior .actual {
     color: #f6290c;
     font-weight: bold;
+}
+#menu_superior span:hover{
+	color:#f6290c;
 }
 #logos {
     left: 888px; /*margin-left: 64px;*/	
