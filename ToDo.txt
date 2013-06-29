@@ -1,28 +1,28 @@
 @ToDo - Coses pendents:
 
 /General
-->Moltes traduccions
+->Revisar traduccions, sobretot l'angles, mirar els docs
+->A vegades la primera vegada no mostra la barra horitzontal
 
-/Home
+/Home y Merchandising
 ->Llibres correctes
 
 /Books
 ->Degradat
-->Llibres correctes i amb l'ordre de les imatges invers (la 1 a d'anar al final)
+->Llibres correctes i amb l'ordre de les imatges invers (la 1 a d'anar al final), descarregar del dropbox
 (Espai petit no te peu, espai gran entre coleccions)
 
 /Info
-->Fons per les bandes gris fosc
 ->El boto de correu amb estat 2 i 3 te les franjes blanques
-->En la pàgina de Info-Contacte, hi ha un degradat en el fons de les dades, que no caldria.
-->Falten coses x fer, comprovar-ho amb els dissenys
+->Hi ha un text tallat, i s'hauria de separar mes la descripcio que el copyright i tal
+->El text de la dreta a de tenir el mateix format que el de l'esquerra.
 
 
 /Hem de decidir com resoldre-ho
 ->Carrega de la pagina, segons l'Enric:
 M'agrada més que primer es carreguin les imatges i després el text.
 Jo crec que l'ordre, seria: 1 capçalera superior i barra inferior, 2 carrussel imatges, 3 peus de carrussel.
-
+->Separacio entre paraules i entre lletres
 
 
 

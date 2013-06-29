@@ -5,6 +5,7 @@ body {
     margin: 0px;
     font-size: 10px;
     font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1px;
     color:grey;
 }
 .centerPage {
@@ -22,6 +23,9 @@ header {
 header>div {
     position:absolute;
     top: 48px;
+}
+td>div {
+	padding-left: 15px;
 }
 #logo_home {
 /*    min-height: 62px;
@@ -117,7 +121,7 @@ header>div {
 #imatges{
     position: relative;
     height: 340px;
-    background-color:#FF0000;
+    background-color: rgb(215,0,0);
     background-clip: content-box;
     
 }
@@ -172,7 +176,7 @@ header>div {
     position: relative;
     padding: 15px;/*43px*/
     left: 64px;
-    font-size: 10.7px;
+    font-size: 13px;
     color: #f6290c;
     left:64px;
 }
