@@ -1,21 +1,15 @@
 @ToDo - Coses pendents:
 
 /General
-->Revisar traduccions, sobretot l'angles, mirar els docs
 ->A vegades la primera vegada no mostra la barra horitzontal
-
-/Home y Merchandising
-->Llibres correctes
+->Llicència de l'scroll
 
 /Books
-->Degradat
-->Llibres correctes i amb l'ordre de les imatges invers (la 1 a d'anar al final), descarregar del dropbox
-(Espai petit no te peu, espai gran entre coleccions)
+->Degradat professional per css
 
 /Info
 ->El boto de correu amb estat 2 i 3 te les franjes blanques
-->Hi ha un text tallat, i s'hauria de separar mes la descripcio que el copyright i tal
-->El text de la dreta a de tenir el mateix format que el de l'esquerra.
+
 
 
 /Hem de decidir com resoldre-ho
@@ -36,3 +30,7 @@ Fet:
 ->Images favicon y apple-touch
 ->3 estats sobre tots els botons
 ->keywords y description
+->Info: Hi ha un text tallat, i s'hauria de separar mes la descripcio que el copyright i tal
+->Info: El text de la dreta a de tenir el mateix format que el de l'esquerra.
+->Revisar traduccions, sobretot l'angles, mirar els docs
+->Home y Merchandising: Llibres correctes
