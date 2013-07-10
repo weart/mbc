@@ -7,11 +7,6 @@
 /Books
 ->Degradat professional per css
 
-/Info
-->El boto de correu amb estat 2 i 3 te les franjes blanques
-
-
-
 /Hem de decidir com resoldre-ho
 ->Carrega de la pagina, segons l'Enric:
 M'agrada més que primer es carreguin les imatges i després el text.
@@ -34,3 +29,4 @@ Fet:
 ->Info: El text de la dreta a de tenir el mateix format que el de l'esquerra.
 ->Revisar traduccions, sobretot l'angles, mirar els docs
 ->Home y Merchandising: Llibres correctes
+->Info: El boto de correu amb estat 2 i 3 te les franjes blanques
