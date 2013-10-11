@@ -118,6 +118,7 @@ header>div {
 tr.books_description td{
 	/*padding-top: 10px;*/
 	padding-left: 15px;
+	height: 45px;
 }
 tr.books_images td:nth-child(even) {
 	min-width: 200px;
